@@ -8,7 +8,7 @@ class Config:
 @dataclass(config=Config)
 class WorldPopulation:
     world_id: int
-    average: int
+    total: int
     nc: int
     tr: int
     vs: int
