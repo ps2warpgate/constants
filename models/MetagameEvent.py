@@ -1,3 +1,5 @@
+from datetime import datetime
+
 from pydantic.dataclasses import dataclass
 
 from constants.typings import World, Zone
@@ -18,4 +20,4 @@ class MetagameEvent:
     tr: float
     vs: float
     xp: float
-    timestamp: float
+    timestamp: datetime
